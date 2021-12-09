@@ -13,5 +13,8 @@
   ],
   "author": "rookie",
   "license": "GNU",
-  "git repository":"https://github.com/kossimp/NodejsMongodbLog"
+  "git repository": "https://github.com/kossimp/NodejsMongodbLog",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
