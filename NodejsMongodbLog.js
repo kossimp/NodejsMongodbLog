@@ -11,7 +11,7 @@ const schema ={
 }
 const mydata = mongoose.model('Cat1s',schema);
 // const kitty = new mydata({name : 'testZildjian2'})
-// kitty.save()
+// kitty.save()//11
 app.use('/',express.static('public'))
 app.get("/input",(req,res)=>{
     res.send(req.query)
